@@ -21,7 +21,8 @@ export default {
         'poppins': ['Poppins', 'san-serif']
       },
       colors: {
-        primary: "var(--primary)"
+        dark: "var(--primary-dark)",
+        light: "var(--primary-light)"
       }
     },
 
