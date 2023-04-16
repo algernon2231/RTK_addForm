@@ -33,9 +33,9 @@ a {
         @apply p-4 text-sm
     }
 
-    button {
+    /* button {
         @apply px-4 py-2 bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white
-    }
+    } */
 
     h2 {
         @apply text-xl font-bold

@@ -1,16 +1,17 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Posts from './Posts';
-import Post from './Post';
+import AddPostForm from './feature/posts/AddPostForm'
+import PostsList from './feature/posts/PostsList'
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Posts />} />
-        <Route path='/:id' element={<Post />} />
-      </Routes>
-    </BrowserRouter>
+    <div className='max-w-[1440px] w-full flex m-auto'>
+      <div className='w-[40%]'>
+        <AddPostForm />
+      </div>
+      <div className='w-[60%]'>
+        <PostsList />
+      </div>
+    </div>
   )
 }
 
